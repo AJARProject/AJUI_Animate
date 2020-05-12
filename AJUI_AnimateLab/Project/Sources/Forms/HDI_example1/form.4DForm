@@ -1,0 +1,188 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onTimer"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 921,
+					"height": 741,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 915,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"AJAR_Pict": {
+					"type": "picture",
+					"top": 566,
+					"left": 19,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"hdi_txt_obj": {
+					"type": "text",
+					"top": 12,
+					"left": 0,
+					"width": 915,
+					"height": 31,
+					"text": "How Do I",
+					"class": "title"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 566,
+					"left": 13,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"title_txt_obj": {
+					"type": "text",
+					"top": 60,
+					"left": 0,
+					"width": 915,
+					"height": 16,
+					"text": "AJUI Animate",
+					"class": "subtitle"
+				},
+				"subtitle_txt_obj": {
+					"type": "text",
+					"top": 94,
+					"left": 0,
+					"width": 915,
+					"height": 16,
+					"text": "Example 1",
+					"class": "subsubtitle"
+				}
+			}
+		},
+		{
+			"objects": {
+				"background_obj": {
+					"type": "rectangle",
+					"top": 60,
+					"left": 0,
+					"width": 915,
+					"height": 614,
+					"borderRadius": 5,
+					"stroke": "#c0c0c0",
+					"fill": "transparent"
+				},
+				"recSize": {
+					"type": "rectangle",
+					"top": 654,
+					"left": 894,
+					"width": 20,
+					"height": 20,
+					"fill": "#ff0000",
+					"stroke": "#ff0000",
+					"visibility": "hidden"
+				},
+				"close_btn_obj": {
+					"type": "button",
+					"text": "Close",
+					"top": 617,
+					"left": 713,
+					"width": 158,
+					"height": 38,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel"
+				},
+				"Button": {
+					"type": "button",
+					"text": "startup script",
+					"top": 8,
+					"left": 781,
+					"width": 120,
+					"height": 39,
+					"events": [
+						"onLoad"
+					],
+					"method": "ObjectMethods/Button.4dm",
+					"focusable": false,
+					"visibility": "hidden"
+				},
+				"start_btn_obj": {
+					"type": "button",
+					"text": "Start Animation",
+					"top": 617,
+					"left": 535,
+					"width": 158,
+					"height": 38,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"method": "ObjectMethods/start_btn_obj.4dm"
+				},
+				"Input": {
+					"type": "input",
+					"left": 693,
+					"top": 2,
+					"width": 221,
+					"height": 11,
+					"dataSource": "AJUI_Animate_Info()",
+					"enterable": false,
+					"contextMenu": "none",
+					"multiline": "no",
+					"hideFocusRing": true,
+					"focusable": false,
+					"textAlign": "right",
+					"fill": "transparent",
+					"fontWeight": "normal",
+					"fontStyle": "normal",
+					"fontFamily": "Arial",
+					"fontSize": 9,
+					"stroke": "#FFFFFF",
+					"borderStyle": "none",
+					"events": [
+						"onLoad"
+					],
+					"method": "ObjectMethods/Input.4dm"
+				}
+			},
+			"entryOrder": [
+				"close_btn_obj",
+				"Button",
+				"start_btn_obj",
+				"Input"
+			]
+		}
+	],
+	"formSizeAnchor": "recSize",
+	"method": "method.4dm"
+}

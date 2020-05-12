@@ -1,0 +1,3 @@
+[submodule "dependencies/AJ_Math"]
+	path = dependencies/AJ_Math
+	url = https://github.com/AJARProject/AJ_Math.git
