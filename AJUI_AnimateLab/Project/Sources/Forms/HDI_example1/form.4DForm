@@ -146,7 +146,7 @@
 					"events": [
 						"onClick"
 					],
-					"action": "cancel",
+					"action": "",
 					"method": "ObjectMethods/start_btn_obj.4dm"
 				},
 				"Input": {
@@ -173,6 +173,69 @@
 						"onLoad"
 					],
 					"method": "ObjectMethods/Input.4dm"
+				},
+				"rect1": {
+					"type": "rectangle",
+					"top": 220,
+					"left": 190,
+					"width": 50,
+					"height": 50
+				},
+				"rect2": {
+					"type": "rectangle",
+					"top": 320,
+					"left": 190,
+					"width": 50,
+					"height": 50
+				},
+				"rect3": {
+					"type": "rectangle",
+					"top": 420,
+					"left": 190,
+					"width": 50,
+					"height": 50
+				},
+				"rect4": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 190,
+					"width": 50,
+					"height": 50
+				},
+				"rect5": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 290,
+					"width": 50,
+					"height": 50
+				},
+				"rect6": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 390,
+					"width": 50,
+					"height": 50
+				},
+				"rect7": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 490,
+					"width": 50,
+					"height": 50
+				},
+				"rect8": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 590,
+					"width": 50,
+					"height": 50
+				},
+				"rect9": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 690,
+					"width": 50,
+					"height": 50
 				}
 			},
 			"entryOrder": [
