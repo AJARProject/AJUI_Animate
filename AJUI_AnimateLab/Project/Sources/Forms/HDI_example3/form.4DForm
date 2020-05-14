@@ -1,0 +1,132 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 921,
+					"height": 741,
+					"stroke": "transparent"
+				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 1,
+					"left": 0,
+					"width": 915,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"hdi_txt_obj1": {
+					"type": "text",
+					"top": 12,
+					"left": 0,
+					"width": 915,
+					"height": 31,
+					"text": "How Do I",
+					"class": "title"
+				},
+				"title_txt_obj1": {
+					"type": "text",
+					"top": 60,
+					"left": 0,
+					"width": 915,
+					"height": 16,
+					"text": "AJUI Animate",
+					"class": "subtitle"
+				},
+				"subtitle_txt_obj1": {
+					"type": "text",
+					"top": 94,
+					"left": 0,
+					"width": 915,
+					"height": 16,
+					"text": "Example 3 - Slide",
+					"class": "subsubtitle"
+				},
+				"recSize": {
+					"type": "rectangle",
+					"top": 654,
+					"left": 894,
+					"width": 20,
+					"height": 20,
+					"fill": "#ff0000",
+					"stroke": "#ff0000",
+					"visibility": "hidden"
+				}
+			}
+		},
+		{
+			"objects": {
+				"col_left_cont": {
+					"type": "subform",
+					"left": -185,
+					"top": 60,
+					"width": 185,
+					"height": 614,
+					"detailForm": "col_left",
+					"dataSourceTypeHint": "undefined",
+					"focusable": false,
+					"visibility": "hidden"
+				},
+				"btn1": {
+					"type": "input",
+					"top": 12,
+					"left": 5,
+					"width": 43,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn1.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				}
+			}
+		}
+	],
+	"formSizeAnchor": "recSize"
+}
