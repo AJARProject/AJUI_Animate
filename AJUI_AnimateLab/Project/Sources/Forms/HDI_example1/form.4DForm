@@ -214,13 +214,27 @@
 					"left": 750,
 					"width": 50,
 					"height": 50
+				},
+				"reset_obj": {
+					"type": "button",
+					"text": "Reset",
+					"top": 617,
+					"left": 368,
+					"width": 132,
+					"height": 38,
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"method": "ObjectMethods/reset_obj.4dm"
 				}
 			},
 			"entryOrder": [
 				"close_btn_obj",
 				"Button",
 				"start_btn_obj",
-				"Input"
+				"Input",
+				"reset_obj"
 			]
 		}
 	],

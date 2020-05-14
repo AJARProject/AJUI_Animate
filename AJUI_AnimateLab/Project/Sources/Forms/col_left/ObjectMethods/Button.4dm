@@ -1,1 +1,1 @@
-ALERT:C41("Welcome to the new Animate 4D Component effects")
+ALERT:C41("Hello World")
