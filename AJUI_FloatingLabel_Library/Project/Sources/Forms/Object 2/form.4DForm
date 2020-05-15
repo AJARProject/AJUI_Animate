@@ -1,0 +1,36 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"FLabel_obj": {
+					"type": "input",
+					"left": 100,
+					"top": 240,
+					"width": 180,
+					"height": 30,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 24,
+					"stroke": "#6495ed",
+					"visibility": "hidden",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/FLabel_obj.4dm",
+					"dragging": "none",
+					"dropping": "none",
+					"contextMenu": "none",
+					"fontWeight": "bold",
+					"multiline": "automatic"
+				}
+			}
+		}
+	]
+}
