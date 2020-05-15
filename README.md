@@ -8,7 +8,7 @@ It is intended for people who want to make the forms in their applications more 
 
 ### Documentation
 
-[wiki AJUI_Animate](https://github.com/AJARProject/AJUI_Animate/wiki) (soon...)
+[wiki AJUI_Animate](https://github.com/AJARProject/AJUI_Animate/wiki)
 
 **Example**
 
