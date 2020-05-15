@@ -1,0 +1,164 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"recSize": {
+					"type": "rectangle",
+					"top": 594,
+					"left": 165,
+					"width": 20,
+					"height": 20,
+					"fill": "#ff0000",
+					"stroke": "#ff0000",
+					"visibility": "hidden"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": -1,
+					"left": -1,
+					"width": 186,
+					"height": 615,
+					"fill": "#fffacd",
+					"stroke": "#8b4513"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Test\rwith\ra\rsubform",
+					"top": 9,
+					"left": -1,
+					"width": 186,
+					"height": 194,
+					"fontWeight": "bold",
+					"fontStyle": "normal",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"textAlign": "center",
+					"stroke": "#8b4513"
+				},
+				"AJAR_Pict": {
+					"type": "picture",
+					"top": 506,
+					"left": 42,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 506,
+					"left": 36,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 161,
+					"left": 54,
+					"width": 91,
+					"height": 37,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Radio Button": {
+					"type": "radio",
+					"text": "Radio 1",
+					"top": 223,
+					"left": 57,
+					"width": 81,
+					"height": 23,
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"text": "Checkbox",
+					"top": 328,
+					"left": 54,
+					"width": 88,
+					"height": 30,
+					"events": [
+						"onClick"
+					]
+				},
+				"Ruler": {
+					"type": "ruler",
+					"left": 23,
+					"top": 378,
+					"width": 135,
+					"height": 37,
+					"max": 100,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.ruler"
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"text": "Radio 2",
+					"top": 257,
+					"left": 57,
+					"width": 81,
+					"height": 23,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"formSizeAnchor": "recSize",
+	"editor": {
+		"groups": {
+			"Group": [
+				"Radio Button",
+				"Radio Button1"
+			]
+		}
+	}
+}

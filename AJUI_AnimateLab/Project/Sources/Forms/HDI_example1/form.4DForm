@@ -37,15 +37,6 @@
 					"fill": "#005EA8",
 					"stroke": "transparent"
 				},
-				"AJAR_Pict": {
-					"type": "picture",
-					"top": 566,
-					"left": 19,
-					"width": 96,
-					"height": 96,
-					"pictureFormat": "scaled",
-					"picture": "Images/Picture1.png"
-				},
 				"hdi_txt_obj": {
 					"type": "text",
 					"top": 12,
@@ -54,19 +45,6 @@
 					"height": 31,
 					"text": "How Do I",
 					"class": "title"
-				},
-				"Invisible Button2": {
-					"type": "button",
-					"top": 566,
-					"left": 13,
-					"width": 109,
-					"height": 96,
-					"display": false,
-					"method": "ObjectMethods/Invisible Button2.4dm",
-					"events": [
-						"onLoad",
-						"onClick"
-					]
 				},
 				"title_txt_obj": {
 					"type": "text",
@@ -146,7 +124,7 @@
 					"events": [
 						"onClick"
 					],
-					"action": "cancel",
+					"action": "",
 					"method": "ObjectMethods/start_btn_obj.4dm"
 				},
 				"Input": {
@@ -173,13 +151,90 @@
 						"onLoad"
 					],
 					"method": "ObjectMethods/Input.4dm"
+				},
+				"rect1": {
+					"type": "rectangle",
+					"top": 220,
+					"left": 250,
+					"width": 50,
+					"height": 50
+				},
+				"rect2": {
+					"type": "rectangle",
+					"top": 320,
+					"left": 250,
+					"width": 50,
+					"height": 50
+				},
+				"rect3": {
+					"type": "rectangle",
+					"top": 420,
+					"left": 250,
+					"width": 50,
+					"height": 50
+				},
+				"rect4": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 250,
+					"width": 50,
+					"height": 50
+				},
+				"rect5": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 350,
+					"width": 50,
+					"height": 50
+				},
+				"rect6": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 450,
+					"width": 50,
+					"height": 50
+				},
+				"rect7": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 550,
+					"width": 50,
+					"height": 50
+				},
+				"rect8": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 650,
+					"width": 50,
+					"height": 50
+				},
+				"rect9": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 750,
+					"width": 50,
+					"height": 50
+				},
+				"reset_obj": {
+					"type": "button",
+					"text": "Reset",
+					"top": 617,
+					"left": 368,
+					"width": 132,
+					"height": 38,
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"method": "ObjectMethods/reset_obj.4dm"
 				}
 			},
 			"entryOrder": [
 				"close_btn_obj",
 				"Button",
 				"start_btn_obj",
-				"Input"
+				"Input",
+				"reset_obj"
 			]
 		}
 	],
