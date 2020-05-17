@@ -54,21 +54,7 @@
 					"width": 186,
 					"height": 615,
 					"fill": "#fffacd",
-					"stroke": "#8b4513"
-				},
-				"Text": {
-					"type": "text",
-					"text": "Test\rwith\ra\rsubform",
-					"top": 9,
-					"left": -1,
-					"width": 186,
-					"height": 194,
-					"fontWeight": "bold",
-					"fontStyle": "normal",
-					"fontFamily": "Arial",
-					"fontSize": 24,
-					"textAlign": "center",
-					"stroke": "#8b4513"
+					"stroke": "#fffacd"
 				},
 				"AJAR_Pict": {
 					"type": "picture",
@@ -95,9 +81,9 @@
 				"Button": {
 					"type": "button",
 					"text": "Button",
-					"top": 161,
-					"left": 54,
-					"width": 91,
+					"top": 16,
+					"left": 24,
+					"width": 122,
 					"height": 37,
 					"events": [
 						"onClick"
@@ -107,8 +93,8 @@
 				"Radio Button": {
 					"type": "radio",
 					"text": "Radio 1",
-					"top": 223,
-					"left": 57,
+					"top": 78,
+					"left": 24,
 					"width": 81,
 					"height": 23,
 					"events": [
@@ -118,8 +104,8 @@
 				"Check Box": {
 					"type": "checkbox",
 					"text": "Checkbox",
-					"top": 328,
-					"left": 54,
+					"top": 155,
+					"left": 24,
 					"width": 88,
 					"height": 30,
 					"events": [
@@ -128,8 +114,8 @@
 				},
 				"Ruler": {
 					"type": "ruler",
-					"left": 23,
-					"top": 378,
+					"left": 24,
+					"top": 205,
 					"width": 135,
 					"height": 37,
 					"max": 100,
@@ -141,12 +127,37 @@
 				"Radio Button1": {
 					"type": "radio",
 					"text": "Radio 2",
-					"top": 257,
-					"left": 57,
+					"top": 112,
+					"left": 24,
 					"width": 81,
 					"height": 23,
 					"events": [
 						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"text": "Left Panel",
+					"top": -3,
+					"left": 154,
+					"width": 31,
+					"height": 608,
+					"fontWeight": "bold",
+					"fontStyle": "normal",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"textAlign": "center",
+					"stroke": "#8b4513",
+					"textAngle": 270
+				},
+				"Combo Box": {
+					"type": "combo",
+					"left": 37,
+					"top": 96,
+					"width": 1,
+					"height": 1,
+					"events": [
+						"onDataChange"
 					]
 				}
 			}

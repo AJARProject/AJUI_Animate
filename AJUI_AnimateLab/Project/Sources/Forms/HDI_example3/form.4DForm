@@ -3,8 +3,8 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"windowSizingX": "variable",
-	"windowSizingY": "variable",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
 	"windowMinWidth": 0,
 	"windowMinHeight": 0,
 	"windowMaxWidth": 32767,
@@ -91,18 +91,18 @@
 		},
 		{
 			"objects": {
-				"col_left_cont": {
+				"left_panel_cont": {
 					"type": "subform",
-					"left": -185,
+					"left": 0,
 					"top": 60,
 					"width": 185,
 					"height": 614,
-					"detailForm": "col_left",
+					"detailForm": "left_panel",
 					"dataSourceTypeHint": "undefined",
 					"focusable": false,
 					"visibility": "hidden"
 				},
-				"btn1": {
+				"btn_slide_left": {
 					"type": "input",
 					"top": 12,
 					"left": 5,
@@ -114,7 +114,40 @@
 					"borderStyle": "none",
 					"enterable": false,
 					"dragging": "none",
-					"method": "ObjectMethods/btn1.4dm",
+					"method": "ObjectMethods/btn_slide_left.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"right_panel_cont": {
+					"type": "subform",
+					"left": 913,
+					"top": 60,
+					"width": 185,
+					"height": 614,
+					"detailForm": "right_panel",
+					"visibility": "hidden",
+					"dataSourceTypeHint": "undefined"
+				},
+				"btn_slide_right": {
+					"type": "input",
+					"top": 14,
+					"left": 859,
+					"width": 43,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_slide_right.4dm",
 					"events": [
 						"onLoad",
 						"onMouseUp",

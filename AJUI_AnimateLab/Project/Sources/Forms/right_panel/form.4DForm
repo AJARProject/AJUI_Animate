@@ -1,0 +1,184 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"recSize": {
+					"type": "rectangle",
+					"top": 594,
+					"left": 165,
+					"width": 20,
+					"height": 20,
+					"fill": "#ff0000",
+					"stroke": "#ff0000",
+					"visibility": "hidden"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": -1,
+					"left": -1,
+					"width": 186,
+					"height": 615,
+					"fill": "#b1c4dd",
+					"stroke": "#b1c4dd"
+				},
+				"Text": {
+					"type": "text",
+					"text": "\r\rRight\rPanel",
+					"top": 13,
+					"left": 3,
+					"width": 182,
+					"height": 83,
+					"fontWeight": "bold",
+					"fontStyle": "normal",
+					"fontFamily": "Arial",
+					"fontSize": 24,
+					"textAlign": "center",
+					"stroke": "#191970",
+					"textAngle": 90
+				},
+				"AJAR_Pict": {
+					"type": "picture",
+					"top": 506,
+					"left": 42,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 506,
+					"left": 36,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"btn_1": {
+					"type": "button",
+					"text": "Button 1",
+					"top": 135,
+					"left": 9,
+					"width": 162,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_1.4dm"
+				},
+				"btn_2": {
+					"type": "button",
+					"text": "Button 2",
+					"top": 183,
+					"left": 9,
+					"width": 162,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_2.4dm"
+				},
+				"btn_3": {
+					"type": "button",
+					"text": "Button 3",
+					"top": 231,
+					"left": 9,
+					"width": 162,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_3.4dm"
+				},
+				"btn_4": {
+					"type": "button",
+					"text": "Button 4",
+					"top": 279,
+					"left": 9,
+					"width": 162,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_4.4dm"
+				},
+				"btn_5": {
+					"type": "button",
+					"text": "Button 5",
+					"top": 327,
+					"left": 9,
+					"width": 162,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_5.4dm"
+				},
+				"btn_6": {
+					"type": "button",
+					"text": "Button 6",
+					"top": 375,
+					"left": 9,
+					"width": 162,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_6.4dm"
+				},
+				"btn_7": {
+					"type": "button",
+					"text": "Button 7",
+					"top": 423,
+					"left": 9,
+					"width": 162,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_7.4dm"
+				}
+			}
+		}
+	],
+	"formSizeAnchor": "recSize"
+}
