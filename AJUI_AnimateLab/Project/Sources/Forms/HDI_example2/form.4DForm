@@ -85,20 +85,6 @@
 					"height": 16,
 					"text": "Example 2",
 					"class": "subsubtitle"
-				},
-				"Button": {
-					"type": "button",
-					"text": "startup script",
-					"top": 8,
-					"left": 760,
-					"width": 120,
-					"height": 39,
-					"events": [
-						"onLoad"
-					],
-					"method": "ObjectMethods/Button.4dm",
-					"focusable": false,
-					"visibility": "hidden"
 				}
 			}
 		},
