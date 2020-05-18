@@ -81,7 +81,7 @@
 				"Button": {
 					"type": "button",
 					"text": "Button",
-					"top": 16,
+					"top": 156,
 					"left": 24,
 					"width": 122,
 					"height": 37,
@@ -93,7 +93,7 @@
 				"Radio Button": {
 					"type": "radio",
 					"text": "Radio 1",
-					"top": 78,
+					"top": 218,
 					"left": 24,
 					"width": 81,
 					"height": 23,
@@ -104,7 +104,7 @@
 				"Check Box": {
 					"type": "checkbox",
 					"text": "Checkbox",
-					"top": 155,
+					"top": 295,
 					"left": 24,
 					"width": 88,
 					"height": 30,
@@ -115,7 +115,7 @@
 				"Ruler": {
 					"type": "ruler",
 					"left": 24,
-					"top": 205,
+					"top": 345,
 					"width": 135,
 					"height": 37,
 					"max": 100,
@@ -127,7 +127,7 @@
 				"Radio Button1": {
 					"type": "radio",
 					"text": "Radio 2",
-					"top": 112,
+					"top": 252,
 					"left": 24,
 					"width": 81,
 					"height": 23,
@@ -137,11 +137,11 @@
 				},
 				"Text": {
 					"type": "text",
-					"text": "Left Panel",
-					"top": -3,
-					"left": 154,
-					"width": 31,
-					"height": 608,
+					"text": "Left\rPanel",
+					"top": 10,
+					"left": 53,
+					"width": 70,
+					"height": 111,
 					"fontWeight": "bold",
 					"fontStyle": "normal",
 					"fontFamily": "Arial",

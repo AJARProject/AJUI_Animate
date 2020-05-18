@@ -227,6 +227,16 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/reset_obj.4dm"
+				},
+				"Text": {
+					"type": "text",
+					"text": "This example use the callback function that is fired at the end of each animation to start the next one.",
+					"top": 263,
+					"left": 435,
+					"width": 325,
+					"height": 83,
+					"fontFamily": "Arial",
+					"fontSize": 18
 				}
 			},
 			"entryOrder": [

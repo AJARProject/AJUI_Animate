@@ -1,6 +1,6 @@
 //%attributes = {}
-
-
+OBJECT SET ENABLED:C1123(*;"start_btn_obj";False:C215)
+OBJECT SET ENABLED:C1123(*;"reset_obj";False:C215)
 C_OBJECT:C1216($o1)
 $o1:=New Animation 
 $o1.target:="rect1"

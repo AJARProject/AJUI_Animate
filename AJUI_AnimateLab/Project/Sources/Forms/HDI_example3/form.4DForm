@@ -86,6 +86,16 @@
 					"fill": "#ff0000",
 					"stroke": "#ff0000",
 					"visibility": "hidden"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Use the arrow button at the left and the right side of the form to display or not the panels.",
+					"top": 287,
+					"left": 280,
+					"width": 325,
+					"height": 83,
+					"fontFamily": "Arial",
+					"fontSize": 18
 				}
 			}
 		},
@@ -93,7 +103,7 @@
 			"objects": {
 				"left_panel_cont": {
 					"type": "subform",
-					"left": 0,
+					"left": -184,
 					"top": 60,
 					"width": 185,
 					"height": 614,
@@ -101,29 +111,6 @@
 					"dataSourceTypeHint": "undefined",
 					"focusable": false,
 					"visibility": "hidden"
-				},
-				"btn_slide_left": {
-					"type": "input",
-					"top": 12,
-					"left": 5,
-					"width": 43,
-					"height": 33,
-					"dataSourceTypeHint": "picture",
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "none",
-					"enterable": false,
-					"dragging": "none",
-					"method": "ObjectMethods/btn_slide_left.4dm",
-					"events": [
-						"onLoad",
-						"onMouseUp",
-						"onClick",
-						"onLosingFocus",
-						"onGettingFocus",
-						"onMouseEnter",
-						"onMouseLeave"
-					]
 				},
 				"right_panel_cont": {
 					"type": "subform",
@@ -148,6 +135,29 @@
 					"enterable": false,
 					"dragging": "none",
 					"method": "ObjectMethods/btn_slide_right.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_slide_left": {
+					"type": "input",
+					"top": 14,
+					"left": 6,
+					"width": 43,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_slide_left.4dm",
 					"events": [
 						"onLoad",
 						"onMouseUp",

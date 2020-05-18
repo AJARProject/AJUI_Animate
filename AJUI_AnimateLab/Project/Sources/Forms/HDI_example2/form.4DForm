@@ -275,6 +275,16 @@
 						"onLoad"
 					],
 					"method": "ObjectMethods/Input.4dm"
+				},
+				"Text": {
+					"type": "text",
+					"text": "This example use various effects : shakeNo, shakeYes, heartbeat, elastic, slideIn and slideOut.\r\rIt also use svg buttons built with the AJUI_Button component\r\rThe password is : \"zzz\"\rBefore to validate the password, try to put a false one to get a first animation effect.\r",
+					"top": 434,
+					"left": 151,
+					"width": 673,
+					"height": 145,
+					"fontFamily": "Arial",
+					"fontSize": 18
 				}
 			},
 			"entryOrder": [

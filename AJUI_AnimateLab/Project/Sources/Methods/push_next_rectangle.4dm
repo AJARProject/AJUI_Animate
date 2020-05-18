@@ -49,6 +49,8 @@ Else
 		$params.delay:=0
 		$o1.callbackParams:=$params
 	Else 
+		OBJECT SET ENABLED:C1123(*;"start_btn_obj";True:C214)
+		OBJECT SET ENABLED:C1123(*;"reset_obj";True:C214)
 		ALERT:C41("End of the animation")
 	End if 
 	

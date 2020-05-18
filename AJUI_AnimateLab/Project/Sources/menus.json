@@ -27,12 +27,16 @@
 					"startNewProcess": true
 				},
 				{
-					"title": "HDI_Example1",
+					"title": "HDI Callback",
 					"method": "_launch_HDI_example1"
 				},
 				{
-					"title": "HDI_Example2",
+					"title": "HDI Login",
 					"method": "_launch_HDI_example2"
+				},
+				{
+					"title": "HDI Panels",
+					"method": "_launch_HDI_example3"
 				},
 				{
 					"title": "Ligne 1",
