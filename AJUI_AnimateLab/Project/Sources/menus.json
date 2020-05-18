@@ -39,6 +39,10 @@
 					"method": "_launch_HDI_example3"
 				},
 				{
+					"title": "HDI Floating Label",
+					"method": "_launch_HDI_FloatingLabel"
+				},
+				{
 					"title": "Ligne 1",
 					"isSeparator": true
 				},
