@@ -5,8 +5,8 @@ Case of
 	: ($evt=On Load:K2:1)
 		Form:C1466.firstNameLabel:=New Animation 
 		Form:C1466.firstNameLabel.target:="firstName"
-		Form:C1466.firstNameLabel.fontSize:=11
-		Form:C1466.firstNameLabel.offset:=-5
+		Form:C1466.firstNameLabel.fontSize:=12
+		Form:C1466.firstNameLabel.offset:=-3
 		Form:C1466.firstNameLabel.formPath:="firstName"
 End case 
 
