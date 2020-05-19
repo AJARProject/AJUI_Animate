@@ -171,5 +171,6 @@
 			}
 		}
 	],
-	"formSizeAnchor": "recSize"
+	"formSizeAnchor": "recSize",
+	"menuBar": "Barre #1"
 }

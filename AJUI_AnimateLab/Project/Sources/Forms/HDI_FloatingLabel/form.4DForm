@@ -160,9 +160,9 @@
 				"firstName": {
 					"type": "input",
 					"left": 260,
-					"top": 246,
+					"top": 235,
 					"width": 180,
-					"height": 17,
+					"height": 30,
 					"fontSize": 24,
 					"hideFocusRing": true,
 					"fill": "transparent",
@@ -176,14 +176,15 @@
 						"onLosingFocus",
 						"onGettingFocus",
 						"onAfterEdit"
-					]
+					],
+					"fontFamily": "Arial"
 				},
 				"lastName": {
 					"type": "input",
 					"left": 460,
-					"top": 246,
+					"top": 235,
 					"width": 180,
-					"height": 17,
+					"height": 30,
 					"fontSize": 24,
 					"hideFocusRing": true,
 					"fill": "transparent",
@@ -197,14 +198,15 @@
 						"onLosingFocus",
 						"onGettingFocus",
 						"onAfterEdit"
-					]
+					],
+					"fontFamily": "Arial"
 				},
 				"email": {
 					"type": "input",
 					"left": 260,
-					"top": 298,
+					"top": 285,
 					"width": 380,
-					"height": 17,
+					"height": 30,
 					"fontSize": 24,
 					"hideFocusRing": true,
 					"fill": "transparent",
@@ -218,7 +220,8 @@
 						"onLosingFocus",
 						"onGettingFocus",
 						"onAfterEdit"
-					]
+					],
+					"fontFamily": "Arial"
 				},
 				"description": {
 					"type": "input",
@@ -239,7 +242,8 @@
 						"onGettingFocus",
 						"onAfterEdit"
 					],
-					"method": "ObjectMethods/description.4dm"
+					"method": "ObjectMethods/description.4dm",
+					"fontFamily": "Arial"
 				},
 				"FLabel_obj": {
 					"type": "input",
@@ -298,7 +302,6 @@
 					"stroke": "#1e90ff",
 					"visibility": "visible",
 					"events": [],
-					"method": "ObjectMethods/duration.4dm",
 					"dragging": "none",
 					"dropping": "none",
 					"contextMenu": "none",
@@ -306,7 +309,8 @@
 					"multiline": "automatic",
 					"dataSource": "\"Duration \"+String:C10(Form:C1466.duration)",
 					"textAlign": "center",
-					"dataSourceTypeHint": "integer"
+					"dataSourceTypeHint": "text",
+					"fontFamily": "Arial"
 				},
 				"Text1": {
 					"type": "text",
@@ -318,7 +322,8 @@
 					"fontSize": 24,
 					"stroke": "#6495ed",
 					"textAlign": "center",
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"fontFamily": "Arial"
 				},
 				"animationTypes": {
 					"type": "dropdown",
