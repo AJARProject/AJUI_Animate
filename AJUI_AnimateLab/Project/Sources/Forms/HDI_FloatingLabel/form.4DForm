@@ -184,7 +184,7 @@
 					"top": 246,
 					"width": 180,
 					"height": 17,
-					"fontSize": 24,
+					"fontSize": 13,
 					"hideFocusRing": true,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -197,7 +197,10 @@
 						"onLosingFocus",
 						"onGettingFocus",
 						"onAfterEdit"
-					]
+					],
+					"fontWeight": "normal",
+					"fontStyle": "normal",
+					"fontFamily": "Arial"
 				},
 				"email": {
 					"type": "input",

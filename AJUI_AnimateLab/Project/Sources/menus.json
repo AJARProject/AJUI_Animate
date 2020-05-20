@@ -35,6 +35,10 @@
 					"method": "_launch_HDI_example2"
 				},
 				{
+					"title": "HDI Panel",
+					"method": "_launch_HDI_panel"
+				},
+				{
 					"title": "HDI Panels",
 					"method": "_launch_HDI_example3"
 				},
