@@ -5,7 +5,7 @@ Case of
 	: ($evt=On Load:K2:1)
 		Form:C1466.descriptionLabel:=New Animation 
 		Form:C1466.descriptionLabel.target:="description"
-		Form:C1466.descriptionLabel.fontSize:=12
+		Form:C1466.descriptionLabel.fontSize:=11
 		Form:C1466.descriptionLabel.offset:=-3
 		Form:C1466.descriptionLabel.formPath:="description"
 End case 

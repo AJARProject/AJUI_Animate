@@ -5,8 +5,8 @@ Case of
 	: ($evt=On Load:K2:1)
 		Form:C1466.emailLabel:=New Animation 
 		Form:C1466.emailLabel.target:="email"
-		Form:C1466.emailLabel.fontSize:=12
-		Form:C1466.emailLabel.offset:=-3
+		Form:C1466.emailLabel.fontSize:=11
+		Form:C1466.emailLabel.offset:=-5
 		Form:C1466.emailLabel.formPath:="email"
 End case 
 

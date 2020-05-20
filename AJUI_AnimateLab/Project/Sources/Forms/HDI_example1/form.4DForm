@@ -249,5 +249,6 @@
 		}
 	],
 	"formSizeAnchor": "recSize",
-	"method": "method.4dm"
+	"method": "method.4dm",
+	"menuBar": "Barre #1"
 }
