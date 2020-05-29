@@ -19,7 +19,7 @@ It is intended for people who want to make the forms in their applications more 
 
 ### Version
 
-V18 0.9.0-Build53  // Tue, 12 May 2020 10:00:35 GMT
+0.9.0-Build53  // Tue, 12 May 2020 10:00:35 GMT
 
 ### Questions?
 
