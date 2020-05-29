@@ -34,7 +34,7 @@ userPreferences.*
 Folder_Reports
 
 # include the following if you want to ignore the database settings
-*.4DSettings
+# *.4DSettings
 
 # OS generated files #
 ######################
