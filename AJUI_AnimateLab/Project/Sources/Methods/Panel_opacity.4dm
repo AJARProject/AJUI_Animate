@@ -11,8 +11,9 @@ If (Count parameters:C259=0)  // for easy testing
 	Panel_opacity ($params)
 	
 Else 
-	
+	C_TEXT:C284($color)
 	C_OBJECT:C1216($params;$1)
+	C_PICTURE:C286($0;$pict)
 	$params:=$1
 	$width:=$params.width
 	$height:=$params.height

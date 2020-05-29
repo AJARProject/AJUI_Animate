@@ -1,4 +1,4 @@
-﻿﻿$evt:=Form event code:C388
+$evt:=Form event code:C388
 
 Case of 
 	: ($evt=On Clicked:K2:4)

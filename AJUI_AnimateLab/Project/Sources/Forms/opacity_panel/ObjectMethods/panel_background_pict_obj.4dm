@@ -1,3 +1,4 @@
+C_LONGINT:C283($width;$height)
 $evt:=Form event code:C388
 
 Case of 

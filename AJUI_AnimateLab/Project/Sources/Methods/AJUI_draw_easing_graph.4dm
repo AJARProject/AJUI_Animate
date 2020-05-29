@@ -18,6 +18,7 @@ If (False:C215)
 End if 
 
 C_TEXT:C284($1;$easing)
+C_REAL:C285($posCalc;$transitionValue)
 $easing:=$1
 
   // -------------------------------- SVG -------------------------------
@@ -31,7 +32,7 @@ $transition.minValue:=0
 $transition.maxValue:=1
 For ($pos;0;100;1)
 	$transition.current_step:=$pos
-	$posCalc:=animationTiming($transition)
+	$posCalc:=animationTiming ($transition)
 	$el:=New object:C1471("pos";$pos;"posCalc";$posCalc)
 	$col2.push($el)
 End for 
@@ -63,7 +64,7 @@ $steps:=$transition.steps
 
 For ($i;1;$steps)
 	$transition.current_step:=$i
-	$transitionValue:=animationTiming($transition)
+	$transitionValue:=animationTiming ($transition)
 	
 	$startX:=$currentX*$factor
 	$startY:=($currentY*$factor)+$min

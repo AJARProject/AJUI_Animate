@@ -1,5 +1,6 @@
 //%attributes = {"shared":true}
 C_OBJECT:C1216($1;$params)
+C_TEXT:C284($templateName;$callback;$target)
 
 $params:=$1
 $target:=$params.target

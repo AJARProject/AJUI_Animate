@@ -1,5 +1,6 @@
 //%attributes = {"shared":true}
 C_OBJECT:C1216($o_closeMe)
+C_LONGINT:C283($width;$height)
 $o_closeMe:=New Animation 
 $o_closeMe.target:="panel_subform_obj"
 $o_closeMe.orientation:="down"
