@@ -53,12 +53,12 @@
 					"left": -1,
 					"width": 186,
 					"height": 615,
-					"fill": "#b1c4dd",
+					"fill": "#B8E3FA",
 					"stroke": "#b1c4dd"
 				},
 				"Text": {
 					"type": "text",
-					"text": "\r\rRight\rPanel",
+					"text": "Settings",
 					"top": 13,
 					"left": 3,
 					"width": 182,
@@ -66,10 +66,10 @@
 					"fontWeight": "bold",
 					"fontStyle": "normal",
 					"fontFamily": "Arial",
-					"fontSize": 24,
+					"fontSize": 36,
 					"textAlign": "center",
-					"stroke": "#191970",
-					"textAngle": 90
+					"stroke": "#FFFFFF",
+					"textAngle": 0
 				},
 				"AJAR_Pict": {
 					"type": "picture",
@@ -93,89 +93,143 @@
 						"onClick"
 					]
 				},
-				"btn_1": {
-					"type": "button",
-					"text": "Button 1",
-					"top": 135,
-					"left": 9,
-					"width": 162,
-					"height": 34,
+				"btn_menu1": {
+					"type": "input",
+					"top": 99,
+					"left": 0,
+					"width": 185,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu1.4dm",
 					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/btn_1.4dm"
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
 				},
-				"btn_2": {
-					"type": "button",
-					"text": "Button 2",
-					"top": 183,
-					"left": 9,
-					"width": 162,
-					"height": 34,
+				"btn_menu2": {
+					"type": "input",
+					"top": 132,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu2.4dm",
 					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/btn_2.4dm"
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
 				},
-				"btn_3": {
-					"type": "button",
-					"text": "Button 3",
+				"btn_menu3": {
+					"type": "input",
+					"top": 165,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu3.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_menu4": {
+					"type": "input",
+					"top": 198,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu4.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_menu5": {
+					"type": "input",
 					"top": 231,
-					"left": 9,
-					"width": 162,
-					"height": 34,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu5.4dm",
 					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/btn_3.4dm"
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
 				},
-				"btn_4": {
-					"type": "button",
-					"text": "Button 4",
-					"top": 279,
-					"left": 9,
-					"width": 162,
-					"height": 34,
+				"btn_menu6": {
+					"type": "input",
+					"top": 264,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu6.4dm",
 					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/btn_4.4dm"
-				},
-				"btn_5": {
-					"type": "button",
-					"text": "Button 5",
-					"top": 327,
-					"left": 9,
-					"width": 162,
-					"height": 34,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/btn_5.4dm"
-				},
-				"btn_6": {
-					"type": "button",
-					"text": "Button 6",
-					"top": 375,
-					"left": 9,
-					"width": 162,
-					"height": 34,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/btn_6.4dm"
-				},
-				"btn_7": {
-					"type": "button",
-					"text": "Button 7",
-					"top": 423,
-					"left": 9,
-					"width": 162,
-					"height": 34,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/btn_7.4dm"
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
 				}
 			}
 		}

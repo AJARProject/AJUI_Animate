@@ -89,7 +89,7 @@
 				},
 				"Text": {
 					"type": "text",
-					"text": "Use the arrow button at the left and the right side of the form to display or not the panels.",
+					"text": "Use the menu button and the arrow button to display slidebars.",
 					"top": 287,
 					"left": 280,
 					"width": 325,
@@ -114,7 +114,7 @@
 				},
 				"right_panel_cont": {
 					"type": "subform",
-					"left": 913,
+					"left": 914,
 					"top": 60,
 					"width": 185,
 					"height": 614,

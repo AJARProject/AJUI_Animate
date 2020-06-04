@@ -9,7 +9,6 @@ $templateName:=$params.btn_template
 
 C_OBJECT:C1216($o)
 $o:=New object:C1471("templateName";$templateName)
-Form:C1466[$target]:=New AJUI_Button ($o)
-Form:C1466[$target].Name($target)
 Form:C1466[$target].OnClick($callback)
+Form:C1466[$target].PicturePath(AJUI_btn_default;"#arrow_"+$params.sens+".svg")
 Form:C1466[$target].Draw()

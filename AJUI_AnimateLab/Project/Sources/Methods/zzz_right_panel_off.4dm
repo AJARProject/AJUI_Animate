@@ -11,5 +11,6 @@ C_OBJECT:C1216($params)
 $params:=New object:C1471("target";"btn_slide_right")
 $params.btn_callback:="zzz_right_panel_on"
 $params.btn_template:="slideOff"
+$params.sens:="right"
 $o1.callbackParams:=$params
 $o1.slideOut()

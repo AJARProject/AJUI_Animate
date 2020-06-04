@@ -53,8 +53,8 @@
 					"left": -1,
 					"width": 186,
 					"height": 615,
-					"fill": "#fffacd",
-					"stroke": "#fffacd"
+					"fill": "#7FBFFF",
+					"stroke": "#b1c4dd"
 				},
 				"AJAR_Pict": {
 					"type": "picture",
@@ -78,77 +78,20 @@
 						"onClick"
 					]
 				},
-				"Button": {
-					"type": "button",
-					"text": "Button",
-					"top": 156,
-					"left": 24,
-					"width": 122,
-					"height": 37,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button.4dm"
-				},
-				"Radio Button": {
-					"type": "radio",
-					"text": "Radio 1",
-					"top": 218,
-					"left": 24,
-					"width": 81,
-					"height": 23,
-					"events": [
-						"onClick"
-					]
-				},
-				"Check Box": {
-					"type": "checkbox",
-					"text": "Checkbox",
-					"top": 295,
-					"left": 24,
-					"width": 88,
-					"height": 30,
-					"events": [
-						"onClick"
-					]
-				},
-				"Ruler": {
-					"type": "ruler",
-					"left": 24,
-					"top": 345,
-					"width": 135,
-					"height": 37,
-					"max": 100,
-					"events": [
-						"onDataChange"
-					],
-					"dataSource": "Form:C1466.ruler"
-				},
-				"Radio Button1": {
-					"type": "radio",
-					"text": "Radio 2",
-					"top": 252,
-					"left": 24,
-					"width": 81,
-					"height": 23,
-					"events": [
-						"onClick"
-					]
-				},
 				"Text": {
 					"type": "text",
-					"text": "Left\rPanel",
-					"top": 10,
-					"left": 53,
-					"width": 70,
-					"height": 111,
+					"text": "4D Slidebar",
+					"top": 16,
+					"left": 9,
+					"width": 160,
+					"height": 83,
 					"fontWeight": "bold",
 					"fontStyle": "normal",
 					"fontFamily": "Arial",
-					"fontSize": 24,
+					"fontSize": 36,
 					"textAlign": "center",
-					"stroke": "#8b4513",
-					"textAngle": 270
+					"stroke": "#FFFFFF",
+					"textAngle": 0
 				},
 				"Combo Box": {
 					"type": "combo",
@@ -159,17 +102,147 @@
 					"events": [
 						"onDataChange"
 					]
+				},
+				"btn_menu1": {
+					"type": "input",
+					"top": 139,
+					"left": 0,
+					"width": 185,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu1.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_menu2": {
+					"type": "input",
+					"top": 172,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu2.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_menu3": {
+					"type": "input",
+					"top": 205,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu3.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_menu4": {
+					"type": "input",
+					"top": 238,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu4.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_menu5": {
+					"type": "input",
+					"top": 428,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu5.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
+				},
+				"btn_menu6": {
+					"type": "input",
+					"top": 461,
+					"left": 0,
+					"width": 184,
+					"height": 33,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/btn_menu6.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onMouseEnter",
+						"onMouseLeave"
+					]
 				}
 			}
 		}
 	],
-	"formSizeAnchor": "recSize",
-	"editor": {
-		"groups": {
-			"Group": [
-				"Radio Button",
-				"Radio Button1"
-			]
-		}
-	}
+	"formSizeAnchor": "recSize"
 }
