@@ -21,6 +21,9 @@ It is intended for people who want to make the forms in their applications more 
 
 0.9.0-Build53  // Tue, 12 May 2020 10:00:35 GMT
 
+Minimal 4D Version : 
+ - 18 
+
 ### Questions?
 
 If you have any question, you can ask them directly on github or write to info@ajar.ch
