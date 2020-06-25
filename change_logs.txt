@@ -1,0 +1,10 @@
+Logs of the work done
+
+v0.9.0 - GC - 12.05.2020 :
+ - First available version component ant lab
+ - Wiki
+ 
+ 
+v1.0.0 - GC - 25.06.2020 :
+ - Added class Animation
+ - Updated wiki

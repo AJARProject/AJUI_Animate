@@ -19,10 +19,12 @@ It is intended for people who want to make the forms in their applications more 
 
 ### Version
 
-0.9.0-Build53  // Tue, 12 May 2020 10:00:35 GMT
+1.0.0-Build69  // Thu, 25 Jun 2020 08:54:10 GMT
 
 Minimal 4D Version : 
- - 18 
+ - 18 (using formula member function)
+ - 18 R3 (using class)
+
 
 ### Questions?
 
