@@ -18,7 +18,7 @@ Returns an object that contains all the usable member functions (Effects). Check
 ```4d
   C_Object ($animation)
   
-  $animation:=New Animation.new ()
+  $animation:=New Animation
   $animation.target:="Rectangle1"
   $animation.orientation:="up"
   $animation.iterations:=4
