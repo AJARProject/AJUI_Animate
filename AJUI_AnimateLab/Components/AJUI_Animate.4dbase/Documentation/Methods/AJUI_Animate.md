@@ -1,23 +1,27 @@
 ﻿<!-- AJUI_Animate ( ) -> Animation class  -->
 
-# AJUI_Animate
-
-## Parameters
-
- *  none
-
-## Return value
-
-(object) Animation class
 
 ## Description
 
 Exposes the Button class at the host base.
 
+```4d
+  AJUI_Animate ( ) -> animation
+```
+
+| Parameter | Type | In/Out | Description |
+| --------- | ---- | ------ | ----------- |
+| animation | object | out | instance of the Animation class |
+
 ## Example
 
 ```4d
-  C_Object ($animationClass)
+  C_Object ($animation)
   
-  $animationonClass:=AJUI_Animate
+  $animation:=AJUI_Animate.new ()
+  $animation.target:="AJAR_Pict"
+  $animation.orientation:="up"
+  $animation.offset:=300
+  $animation.bounce()
+  
 ```
