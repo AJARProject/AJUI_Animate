@@ -16,10 +16,12 @@ It is intended for people who want to make the forms in their applications more 
 
 **Example**
 
+```4d
     C_OBJECT($animation)
     $animation:= New Animation
     $animation.target:="Rectangle"
     $animation.bounce()
+```
 
 ### Version
 
