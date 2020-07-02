@@ -25,7 +25,7 @@ It is intended for people who want to make the forms in their applications more 
 
 ### Version
 
-1.0.0-Build69  // Thu, 25 Jun 2020 08:54:10 GMT
+1.0.1-Build72  // Thu, 02 Jul 2020 11:58:03 GMT
 
 Minimal 4D Version : 
  - 18 (using formula member function)
