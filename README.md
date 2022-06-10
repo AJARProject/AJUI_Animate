@@ -1,3 +1,12 @@
+![DEPRECATED](https://img.shields.io/badge/-DEPRECATED-red)
+
+## Source published
+This repository will not be used anymore. Please look at [AJUI_Animate_source](https://github.com/AJARProject/AJUI_Animate_source).
+
+---
+---
+---
+
 # AJUI_Animate
 
 AJUI_Animate is an animation component developed in the 4D language for the v18 version. Very light, it provides a wide range of effects.
